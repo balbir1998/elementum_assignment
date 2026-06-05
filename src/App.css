@@ -10,7 +10,17 @@
     src: url("./assets/fonts/Satoshi-Regular.otf") format("opentype");
 }
 
+@font-face {
+    font-family: "Satoshi Medium";
+    src: url("./assets/fonts/Satoshi-Medium.otf") format("opentype");
+}
+
 @theme {
     --font-gebril: "Gerbil", sans-serif;
-    --font-satoshi: "Satoshi" sans-serif;
+    --font-satoshi-regular: "Satoshi", sans-serif;
+    --font-satoshi-medium: "Satoshi Medium", sans-serif;
+}
+
+body {
+    overflow: hidden;
 }
